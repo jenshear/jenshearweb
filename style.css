@@ -32,10 +32,10 @@ body {
 
 div.a {
   white-space: nowrap; 
-  width: 50px; 
+  width: 1000px; 
   overflow: hidden;
   text-overflow: clip; 
-  border: 1px solid #000000;
+  border: none;
 }
 
 
