@@ -5,7 +5,10 @@ html {
 
 body {
     color: black;
-  }
+    font-size: 15px;
+    line-height: 1.75;
+}
+
   /* unvisited link */
   a:link {
     color: blue;
@@ -29,15 +32,6 @@ body {
     color: blue;
     text-decoration: none; 
   }
-
-div.a {
-  white-space: nowrap; 
-  width: 2000px; 
-  overflow: hidden;
-  text-overflow: clip; 
-  border: none;
-}
-
 
 /* button and accordian */
 
@@ -84,7 +78,77 @@ img {
   height: auto;
 }
 
-/* video */
+/* gallery */
+
+div.gallery img {
+    width: 200px;
+    max-width:100%; height:auto;
+}
+
+table, 
+th, td {
+    border: 1px solid black; 
+    border: 2
+    /* padding: 5px;*/
+    /* width: 100%; */
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    vertical-align: left;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    width: 5%;
+}
+
+/*table*/
+
+.panel {
+    color: black;
+    font-size: 15px;
+    line-height: 1.75;
+    width: 2000px;
+    padding: 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;  /* rounded border */ 
+}
+
+table, 
+th, td {
+    border: 1px solid black; 
+    border: 2
+    /* padding: 5px;*/
+    /* width: 100%; */
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    vertical-align: left;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    width: 5%;
+}
+
+/* video 
 
 .video {
     max-width: 560px; 
@@ -109,77 +173,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-/* gallery */
-
-div.gallery img {
-    width: 200px;
-    max-width:100%; height:auto;
-}
-
-table, 
-th, td {
-    border: 1px solid black; 
-    border: 2
-    border-collapse; collapse;
-    text-align: left;
-    /* padding: 5px;*/
-    /* width: 100%; */
-}
-
-th {
-    text-align: left;
-}
-
-td {
-    vertical-align: left;
-}
-
-.col-1,
-.col-2,
-.col-3 {
-    width: 5%;
-}
-
-/*table*/
-
-.panel {
-    padding: 18px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
-}
-
-.icon {
-    width: 25px;
-    height: 25px;
-    border-radius: 5px;  /* rounded border */ 
-}
-
-table, 
-th, td {
-    border: 1px solid black; 
-    border: 2
-    border-collapse: collapse;
-    text-align: left;
-    /* padding: 5px;*/
-    /* width: 100%; */
-}
-
-th {
-    text-align: left;
-}
-
-td {
-    vertical-align: left;
-}
-
-.col-1,
-.col-2,
-.col-3 {
-    width: 5%;
-}
+} */
 
 /* mobile */
 
