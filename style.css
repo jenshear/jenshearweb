@@ -23,6 +23,19 @@ a:link {
     color: none;
     text-decoration: none; 
   }
+ 
+ /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: none; 
+  }
+
+/* div.a {
+    width: 100%;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 20px; 
+} */
 
 /* button and accordian */
 
@@ -99,6 +112,7 @@ img {
 /* gallery */
 
 div.gallery img {
+    width: 200px;
     max-width:100%; height:auto;
 }
 
@@ -106,9 +120,9 @@ table,
 th, td {
     border: 1px solid black; 
     border: 2
-    /* border-collapse: collapse; */
-    /* text-align: left; */
-    /* padding: 5px; */
+    border-collapse; collapse;
+    text-align: left;
+    /* padding: 5px;*/
     /* width: 100%; */
 }
 
@@ -143,11 +157,11 @@ td {
 
 table, 
 th, td {
-    border: 0px; 
+    border: 1px solid black; 
     border: 2
-    /* border-collapse: collapse; */
-    /* text-align: left; */
-    /* padding: 5px; */
+    border-collapse: collapse;
+    text-align: left;
+    /* padding: 5px;*/
     /* width: 100%; */
 }
 
@@ -170,7 +184,7 @@ td {
 @media only screen and (max-width: 400px) {
 .responsive {
       width: 100%;
-      margin: 6px 0;
+      margin: 6px;
     }
   } 
 
