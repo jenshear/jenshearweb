@@ -22,19 +22,13 @@ a:link {
   a:hover {
     color: none;
     text-decoration: none; 
-  }*/
-  
-  /* selected link 
-  a:active {
-    color: blue;
-    text-decoration: none; 
   }
 
- div.a {
-    width: 100%;
-    line-height: 20px;
-    text-align: justify;
-    margin-bottom: 20px; 
+/* images */
+
+img {
+  width: auto;
+  height: auto;
 }
 
 /* button and accordian */
@@ -104,7 +98,6 @@ a:link {
 /* gallery */
 
 div.gallery img {
-    width: 1000px;
     max-width:100%; height:auto;
 }
 
@@ -171,16 +164,16 @@ td {
     width: 5%;
 }
 
-/* mobile */
+/* mobile 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 100%) {
 .responsive {
       width: 49.99999%;
       margin: 6px 0;
     }
-  }
+  } */
   
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 100%) {
 .responsive {
       width: 100%;
     }
