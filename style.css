@@ -111,7 +111,7 @@ td {
 
 .panel {
     color: black;
-    font-size: 15px;
+    font-size: auto;
     line-height: 1.75;
     width: 2000px;
     padding: 18px;
