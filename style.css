@@ -173,18 +173,12 @@ td {
 
 /* mobile */
 
-@media only screen and (max-width: 500px) {
-.responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
-.responsive {
-      width: 100%;
-    }
-  }
+img
+{
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+}
   
 .clearfix:after {
     content: "";
