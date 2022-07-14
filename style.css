@@ -167,18 +167,13 @@ td {
 
 /* mobile */
 
-@media only screen and (max-width: 100%) {
+@media only screen and (max-width: 400px) {
 .responsive {
-      width: 49.99999%;
+      width: 100%;
       margin: 6px 0;
     }
   } 
-  
-  @media only screen and (max-width: 100%) {
-.responsive {
-      width: 100%;
-    }
-  }
+
   
 .clearfix:after {
     content: "";
