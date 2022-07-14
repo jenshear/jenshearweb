@@ -1,0 +1,193 @@
+html {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+body {
+    color: black;
+  }
+/* unvisited link */
+a:link {
+    color: blue;
+    text-decoration: none; 
+  }
+  
+  /* visited link */
+  a:visited {
+    color: blue;
+    text-decoration: none; 
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: none;
+    text-decoration: none; 
+  }*/
+  
+  /* selected link 
+  a:active {
+    color: blue;
+    text-decoration: none; 
+  }
+
+ div.a {
+    width: 100%;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 20px; 
+}
+
+/* button and accordian */
+
+.button {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+  padding: 10px 24px;
+  border: none;
+  color: blue;
+  padding: 0px;
+  text-align: left;
+  text-decoration: none;
+  display: none-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.active, .button:hover {
+    background-color: white; 
+}
+.accordion {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+  padding: 10px 24px;
+  border: none;
+  color: blue;
+  padding: 0px;
+  text-align: left;
+  text-decoration: none;
+  display: none-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+  
+.active, .accordion:hover {
+    background-color: white; 
+}
+
+/* video */
+
+.video {
+    max-width: 560px; 
+    height: auto
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* gallery */
+
+div.gallery img {
+    width: 1000px;
+    max-width:100%; height:auto;
+}
+
+table, 
+th, td {
+    border: 1px solid black; 
+    border: 2
+    /* border-collapse: collapse; */
+    /* text-align: left; */
+    /* padding: 5px; */
+    /* width: 100%; */
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    vertical-align: left;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    width: 5%;
+}
+
+/*table*/
+
+.panel {
+    padding: 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;  /* rounded border */ 
+}
+
+table, 
+th, td {
+    border: 0px; 
+    border: 2
+    /* border-collapse: collapse; */
+    /* text-align: left; */
+    /* padding: 5px; */
+    /* width: 100%; */
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    vertical-align: left;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    width: 5%;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 1000px) {
+.responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 1000px) {
+.responsive {
+      width: 100%;
+    }
+  }
+  
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

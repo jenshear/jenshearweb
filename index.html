@@ -1,14 +1,79 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
+
+<!-- website header -->
+
+<head>
+    <meta charset="UTF-8"> 
     <title>Hello</title>
-  </head>
+    <link rel="stylesheet" href="style.css"> 
+    <meta name="ROBOTS" content="INDEX,FOLLOW">
+    <meta name="description" content="This website was made to explore xyz.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="" type="image/x-icon">
+</head>
 
-  <body>
-    
-    <h2>Welcome</h2>
+<body>
 
-    <p>Under construction</p>
-  
+<!-- img -->
+  <p><img src="img/Screen Shot 2022-07-14 at 7.37.06 AM copy.jpg" alt="Person with bleached hair has their back turned to the camera" width="1000"></a></p>
+
+<br>
+
+<!-- accordian button -->
+  <button class="accordion">CV</button>
+    <div class="panel">
+        
+        <br>
+        <br>Jen Shear (b. 1987 Taipei, Taiwan) is an interdisciplinary artist and educator living in New Brunswick, New Jersey.
+        <br>
+        <br>
+        <h4>Education:</h4>
+          2020 - 2023 / MFA Mason Gross School of the Arts, Rutgers University (forthcoming) / New Brunswick, NJ
+          <br>2005 - 2010 / BFA Pratt Institute / Brooklyn, NY
+          
+        <h4>Solo:</h4>
+          2019 / "Joan's World" / Gern En Regalia / New York, NY
+          <br>2017 / "Studies" / Low Rence / San Francisco, CA
+        
+        <h4>Curatorial/Events/Collaborations:</h4>
+          2022 / Rutgers in New York 2022 MFA Thesis Show / Co-organized with Park McArthur, Jason Hirata, and Nora Nomile / New York, NY
+          <br>2021 - 2022 / Visiting Artist Lecture Series Coordinator for Mason Gross School of the Arts, Rutgers University / New Brunswick, NJ
+          <br>2019 / "Harm Reduction with Jen Shear" / SFABF / San Francisco, CA
+          <br>2019 / Wide Rainbow collage workshop with the Downtown Women's Center for "Under the Sun" / LAABF / Los Angeles, CA
+          <br> 2019 / "Shorts 2" / Curated by Jen Shear / The Classroom at the LAABF / Los Angeles, CA
+          <br>2018 / Collage workshop with No School / 2727 California Street, Berkeley, CA
+          <br>2018 / "Year of the Doggo", in collaboration with Angela Dimayuga / 356 Mission / Los Angeles, CA
+          <br>2017 / "The Wandering Line" / Curated by Jen Shear for NIAD Art Center's "Affordable Art Online" exhibition series / Richmond, CA
+          <br>2017 / "Shorts 1" / Curated by Jen Shear / The Classroom at LAABF / Los Angeles, CA
+        
+        <h4>Residencies:</h4>
+        2018 / The Range / Saguache, CO
+</div>
+
+<p>--</p>
+jenniferjeanshear@gmail.com
+<br>IG: <a href="https://www.instagram.com/jen__shear/?hl=en">@jen__shear</a>
+
+<!-- scripts -->
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+  </script>
   </body>
-</html>
+  </html>
