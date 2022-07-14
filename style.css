@@ -6,8 +6,8 @@ html {
 body {
     color: black;
   }
-/* unvisited link */
-a:link {
+  /* unvisited link */
+  a:link {
     color: blue;
     text-decoration: none; 
   }
@@ -30,12 +30,14 @@ a:link {
     text-decoration: none; 
   }
 
-/* div.a {
-    width: 100%;
-    line-height: 20px;
-    text-align: justify;
-    margin-bottom: 20px; 
-} */
+div.a {
+  white-space: nowrap; 
+  width: 50px; 
+  overflow: hidden;
+  text-overflow: clip; 
+  border: 1px solid #000000;
+}
+
 
 /* button and accordian */
 
