@@ -33,6 +33,10 @@ body {
     text-decoration: none; 
   }
 
+div.a {
+  line-height: normal;
+}
+
 /* button and accordian */
 
 .button {
